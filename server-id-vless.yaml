@@ -1,0 +1,241 @@
+proxies:
+  - name: "[Vless] ID_PT_MITRA _VISIONER_PRATAMA_IP_206.84.101.83_PORT_8443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/206.84.101.83-8443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_PT_Telekomunikasi_Indonesia_IP_36.95.152.58_PORT_12137"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/36.95.152.58-12137"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_CV_Rumahweb_Indonesia_IP_203.194.112.119_PORT_8443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/203.194.112.119-8443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_CV_Rumahweb_Indonesia_IP_203.194.112.119_PORT_2053"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/203.194.112.119-2053"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_PT_Pusat_Media_Indonesia_IP_103.6.207.108_PORT_8080"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/103.6.207.108-8080"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_21/F_IP_149.129.250.8_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/149.129.250.8-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Google_Asia_Pacific_Pte._Ltd._(GAPPL)_IP_34.101.86.59_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/34.101.86.59-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_PT_Berkah_Maju_Interasional_IP_103.63.101.10_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/103.63.101.10-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Linode_IP_172.232.234.62_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.234.62-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Lightnode_Limited_IP_156.244.1.250_PORT_8443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/156.244.1.250-8443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Evoxt_(ID)_IP_142.111.15.104_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/142.111.15.104-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_F5_Networks_Inc._IP_159.60.146.81_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/159.60.146.81-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_F5_Networks_Inc._IP_159.60.146.82_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/159.60.146.82-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Linode_IP_172.232.238.56_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.238.56-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] ID_Linode_IP_172.232.238.52_PORT_443"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "fa268551-1988-4043-9a50-e172b8debe35"
+    tls: true
+    skip-cert-verify: false
+    servername: "vvipsgid.latifcodingers-id.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.238.52-443"
+      headers:
+        Host: "vvipsgid.latifcodingers-id.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
