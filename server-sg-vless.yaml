@@ -1,0 +1,241 @@
+proxies:
+  - name: "[Vless] 1  PT MITRA VISIONER PRATAMA WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/206.84.101.83-8443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 2  PT Telekomunikasi Indonesia WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/36.95.152.58-12137"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 3  CV. Rumahweb Indonesia WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/203.194.112.119-8443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 4  CV. Rumahweb Indonesia WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/203.194.112.119-2053"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 5  PT Pusat Media Indonesia WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/103.6.207.108-8080"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 6  21/F WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/149.129.250.8-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 7  Google Asia Pacific Pte. Ltd. (GAPPL) WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/34.101.86.59-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 8  PT Berkah Maju Interasional WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/103.63.101.10-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 9  Linode WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.234.62-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 10  Lightnode Limited WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/156.244.1.250-8443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 11  Evoxt (ID) WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/142.111.15.104-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 12  F5 Networks Inc. WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/159.60.146.81-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 13  F5 Networks Inc. WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/159.60.146.82-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 14  Linode WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.238.56-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 15  Linode WS TLS [serversgid]"
+    server: "quiz.vidio.com.cdn.cloudflare.net"
+    port: 443
+    type: vless
+    uuid: "f380d9db-07c6-4251-9a3c-f16afab01dea"
+    tls: true
+    skip-cert-verify: false
+    servername: "serversgid.maslahudinlatif.workers.dev"
+    network: ws
+    ws-opts:
+      path: "/172.232.238.52-443"
+      headers:
+        Host: "serversgid.maslahudinlatif.workers.dev"
+    flow: "xtls-rprx-vision"
+    client-fingerprint: chrome
+    udp: true
