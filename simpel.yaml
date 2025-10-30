@@ -1,0 +1,305 @@
+port: 7890
+socks-port: 7891
+mode: rule
+log-level: silent
+allow-lan: false
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+#Penambhan program baru, kalau anomali bawah ini hapus#
+geodata-mode: false
+#geodata-loader: memconservative
+geo-auto-update: false
+find-process-mode: off
+disable-keep-alive: true
+global-ua: clash.meta/1.19.12
+#batas program baru#
+
+experimental:
+  ignore-resolve-fail: true
+
+tun:
+  enable: true
+  device: FlClash
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+  auto-route: true
+  auto-redirect: true
+  #auto-redirect: true jika di kali linux coba di buat false sapa tau terminal nya bisa buat update#
+  auto-detect-interface: true
+
+dns:
+  nameserver:
+    - 'https://dns.alidns.com/dns-query'
+    - 'tls://dns.alidns.com'
+  enable: true
+  ipv6: false
+  use-hosts: false
+  use-system-hosts: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  default-nameserver:
+    - 223.5.5.5
+    - 223.6.6.6
+    - 8.8.8.8
+  fallback:
+    - 'https://cloudflare-dns.com/dns-query'
+    - 'https://dns.google/dns-query'
+  respect-rules: true
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 8.8.8.8
+
+external-controller: 127.0.0.2:9090
+secret: 'Latifredirhost'
+bind-address: "*"
+#external-ui: "/usr/share/openclash/ui"
+
+profile:
+  store-selected: false
+  store-fake-ip: false
+#store-fake-ip: false # KARENA PAKAI REDIR HOST# TRUE JIKA PAKAI FAKE IP ##
+
+proxies:
+  - name: "[Vless] 2  PT Telekomunikasi Indonesia WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: f483d537-58d6-44ca-8da8-089f1dde8119
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /36.95.152.58-12137
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 3  CV. Rumahweb Indonesia WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 809247be-d1e4-4d65-9d6b-0cb0168624a4
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-8443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 4  CV. Rumahweb Indonesia WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: c89a5dc4-e4e8-447a-9afb-8063210089d1
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /203.194.112.119-2053
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 5  PT Pusat Media Indonesia WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 9916b81f-d984-4a98-8549-18a0b4410e83
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 6  21/F WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 8bf3f776-3370-49b5-9ad7-b9060bb4bc03
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /149.129.250.8-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 8  PT Berkah Maju Interasional WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: b3337cfd-1a39-459a-b189-0e901ffcbe42
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /103.63.101.10-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 10  Lightnode Limited WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 08f784b7-15fc-4fd0-a261-471b935487ca
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /156.244.1.250-8443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 12  F5 Networks Inc. WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: aad058b3-f3fb-4e4c-8043-316217fecda1
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /159.60.146.81-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 13  F5 Networks Inc. WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 52fa8745-73ec-473c-8f02-d4dfedc0527c
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /159.60.146.82-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 14  Linode WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 16c93a46-4d83-4c1d-8bb5-5e997148c1f3
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /172.232.238.56-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 15  Linode WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: f629e0ed-f06c-41d7-b599-5d104cf398f0
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /172.232.238.52-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 16  Amazon.com WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: dcab1167-b12e-4680-8b7b-00b72f78ffd2
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+  - name: "[Vless] 17  Amazon.com WS TLS [serversgid]"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: e829ba46-63d2-4a89-ae0f-de1916f1b4a7
+    #cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: serversgid.maslahudinlatif.workers.dev
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: serversgid.maslahudinlatif.workers.dev
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - "[Vless] 2  PT Telekomunikasi Indonesia WS TLS [serversgid]"
+      - "[Vless] 3  CV. Rumahweb Indonesia WS TLS [serversgid]"
+      - "[Vless] 4  CV. Rumahweb Indonesia WS TLS [serversgid]"
+      - "[Vless] 5  PT Pusat Media Indonesia WS TLS [serversgid]"
+      - "[Vless] 6  21/F WS TLS [serversgid]"
+      - "[Vless] 8  PT Berkah Maju Interasional WS TLS [serversgid]"
+      - "[Vless] 10  Lightnode Limited WS TLS [serversgid]"
+      - "[Vless] 12  F5 Networks Inc. WS TLS [serversgid]"
+      - "[Vless] 13  F5 Networks Inc. WS TLS [serversgid]"
+      - "[Vless] 14  Linode WS TLS [serversgid]"
+      - "[Vless] 15  Linode WS TLS [serversgid]"
+      - "[Vless] 16  Amazon.com WS TLS [serversgid]"
+      - "[Vless] 17  Amazon.com WS TLS [serversgid]"
+      - DIRECT
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
